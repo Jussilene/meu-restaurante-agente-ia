@@ -1,0 +1,10 @@
+{
+  "bairros": [
+    { "nome": "CIC",             "taxa": 8.0 },
+    { "nome": "Sabará",          "taxa": 8.0 },
+    { "nome": "Centro",          "taxa": 7.0 },
+    { "nome": "Portão",          "taxa": 8.5 },
+    { "nome": "Fazendinha",      "taxa": 8.0 }
+  ],
+  "observacao": "Se o cliente estiver em um bairro fora da lista, informar que no momento não atendemos essa região."
+}

@@ -1,0 +1,19 @@
+{
+  "nome": "MEU RESTAURANTE",
+  "cidade": "Curitiba",
+  "horario_abertura": "18:00",
+  "horario_fechamento": "23:30",
+  "observacoes_gerais": "Atendemos somente delivery.",
+  "pix_key": "seu-pix-aqui@exemplo.com",
+  "pix_recebedor": "MEU RESTAURANTE LTDA",
+  "pix_mensagem": "Após o pagamento, envie o comprovante aqui no WhatsApp para confirmarmos o seu pedido.",
+  "mensagem_boas_vindas": "Seja bem-vindo(a)! Eu sou a atendente virtual do MEU RESTAURANTE e vou te ajudar a montar seu pedido.",
+
+  "formas_pagamento": [
+    "PIX",
+    "Cartão de débito",
+    "Cartão de crédito",
+    "Vale refeição",
+    "Dinheiro"
+  ]
+}

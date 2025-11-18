@@ -1,0 +1,64 @@
+{
+  "categorias": [
+    {
+      "nome": "Lanches",
+      "itens": [
+        {
+          "codigo": "L1",
+          "nome": "X-Salada Simples",
+          "preco": 10.0,
+          "descricao": "Pão, hambúrguer, queijo, alface, tomate e maionese."
+        },
+        {
+          "codigo": "L2",
+          "nome": "X-Bacon",
+          "preco": 14.0,
+          "descricao": "Hambúrguer 90g, bacon, queijo e maionese da casa."
+        },
+        {
+          "codigo": "L3",
+          "nome": "X-Calabresa",
+          "preco": 14.0,
+          "descricao": "Hambúrguer 90g, calabresa acebolada, queijo e maionese."
+        }
+      ]
+    },
+    {
+      "nome": "Pizzas",
+      "itens": [
+        {
+          "codigo": "P1",
+          "nome": "Mussarela",
+          "preco": 32.0,
+          "descricao": "Mussarela, tomate e orégano."
+        },
+        {
+          "codigo": "P2",
+          "nome": "Calabresa",
+          "preco": 34.0,
+          "descricao": "Calabresa, cebola e orégano."
+        }
+      ]
+    },
+    {
+      "nome": "Bebidas",
+      "itens": [
+        {
+          "codigo": "B1",
+          "nome": "Coca-Cola lata 350ml",
+          "preco": 4.5
+        },
+        {
+          "codigo": "B2",
+          "nome": "Guaraná Antártica 2L",
+          "preco": 9.0
+        },
+        {
+          "codigo": "B3",
+          "nome": "Água sem gás 500ml",
+          "preco": 2.5
+        }
+      ]
+    }
+  ]
+}
