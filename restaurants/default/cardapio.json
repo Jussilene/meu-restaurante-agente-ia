@@ -1,63 +1,382 @@
 {
   "categorias": [
     {
+      "nome": "Pizzas Tradicionais",
+      "itens": [
+        { "codigo": "P01", "nome": "Mussarela", "preco": 32.0, "descricao": "Mussarela, tomate e orégano." },
+        { "codigo": "P02", "nome": "Calabresa", "preco": 34.0, "descricao": "Calabresa fatiada, cebola e orégano." },
+        { "codigo": "P03", "nome": "Frango com Catupiry", "preco": 38.0, "descricao": "Frango desfiado temperado e catupiry." },
+        { "codigo": "P04", "nome": "Portuguesa", "preco": 38.0, "descricao": "Presunto, mussarela, ovos, cebola, ervilha e orégano." },
+        { "codigo": "P05", "nome": "Marguerita", "preco": 36.0, "descricao": "Mussarela, tomate em rodelas, manjericão e orégano." },
+        { "codigo": "P06", "nome": "Napolitana", "preco": 36.0, "descricao": "Mussarela, tomate e parmesão ralado." },
+        { "codigo": "P07", "nome": "Bauru", "preco": 36.0, "descricao": "Presunto, mussarela e tomate." }
+      ]
+    },
+    {
+      "nome": "Pizzas Especiais",
+      "itens": [
+        { "codigo": "P11", "nome": "Carnívora", "preco": 45.0, "descricao": "Calabresa, bacon, lombo canadense, presunto e mussarela." },
+        { "codigo": "P12", "nome": "Lombo com Abacaxi", "preco": 44.0, "descricao": "Lombo canadense, abacaxi, mussarela e orégano." },
+        { "codigo": "P13", "nome": "Frango com Palmito", "preco": 44.0, "descricao": "Frango desfiado, palmito, mussarela e catupiry." },
+        { "codigo": "P14", "nome": "Quatro Queijos", "preco": 46.0, "descricao": "Mussarela, provolone, parmesão e catupiry." },
+        { "codigo": "P15", "nome": "Toscana", "preco": 44.0, "descricao": "Calabresa moída, mussarela e cebola." }
+      ]
+    },
+    {
+      "nome": "Pizzas Doces",
+      "itens": [
+        { "codigo": "PD1", "nome": "Banana com Canela", "preco": 34.0, "descricao": "Banana em rodelas, açúcar e canela." },
+        { "codigo": "PD2", "nome": "Romeu e Julieta", "preco": 35.0, "descricao": "Goiabada cremosa e mussarela." },
+        { "codigo": "PD3", "nome": "Chocolate", "preco": 36.0, "descricao": "Chocolate ao leite e granulado." },
+        { "codigo": "PD4", "nome": "Prestígio", "preco": 38.0, "descricao": "Chocolate e coco ralado." },
+        { "codigo": "PD5", "nome": "Ovomaltine", "preco": 40.0, "descricao": "Chocolate, creme e Ovomaltine." }
+      ]
+    },
+
+    {
       "nome": "Lanches",
       "itens": [
-        {
-          "codigo": "L1",
-          "nome": "X-Salada Simples",
-          "preco": 10.0,
-          "descricao": "Pão, hambúrguer, queijo, alface, tomate e maionese."
-        },
-        {
-          "codigo": "L2",
-          "nome": "X-Bacon",
-          "preco": 14.0,
-          "descricao": "Hambúrguer 90g, bacon, queijo e maionese da casa."
-        },
-        {
-          "codigo": "L3",
-          "nome": "X-Calabresa",
-          "preco": 14.0,
-          "descricao": "Hambúrguer 90g, calabresa acebolada, queijo e maionese."
-        }
+        { "codigo": "L01", "nome": "X-Salada", "preco": 10.0, "descricao": "Pão, hambúrguer, queijo, alface, tomate e maionese." },
+        { "codigo": "L02", "nome": "X-Burguer", "preco": 10.0, "descricao": "Hambúrguer, queijo e maionese." },
+        { "codigo": "L03", "nome": "X-Bacon", "preco": 10.0, "descricao": "Hambúrguer 60g, bacon, queijo e maionese." },
+        { "codigo": "L04", "nome": "X-Calabresa", "preco": 10.0, "descricao": "Hambúrguer 60g, calabresa acebolada, queijo e maionese." },
+        { "codigo": "L05", "nome": "X-Tudo", "preco": 28.0, "descricao": "Hambúrguer, bacon, calabresa, presunto, queijo, salada e maionese." },
+        { "codigo": "L06", "nome": "X-Bacon Duplo", "preco": 18.0, "descricao": "Duplo hambúrguer com bacon e queijo." },
+        { "codigo": "L07", "nome": "X-Calabresa Duplo", "preco": 18.0, "descricao": "Duplo hambúrguer com calabresa e queijo." },
+        { "codigo": "L08", "nome": "X-Frango", "preco": 15.0, "descricao": "Filé de frango, queijo e maionese." },
+        { "codigo": "L09", "nome": "X-Picanha", "preco": 20.0, "descricao": "Hambúrguer de picanha, queijo e bacon." },
+        { "codigo": "L10", "nome": "X-Egg", "preco": 12.0, "descricao": "Hambúrguer, ovo, queijo e maionese." }
       ]
     },
+
     {
-      "nome": "Pizzas",
+      "nome": "Refrigerantes, Sucos & Chá",
       "itens": [
-        {
-          "codigo": "P1",
-          "nome": "Mussarela",
-          "preco": 32.0,
-          "descricao": "Mussarela, tomate e orégano."
-        },
-        {
-          "codigo": "P2",
-          "nome": "Calabresa",
-          "preco": 34.0,
-          "descricao": "Calabresa, cebola e orégano."
-        }
+        { "codigo": "B01", "nome": "Coca-Cola 2L", "preco": 12.0 },
+        { "codigo": "B02", "nome": "Guaraná 2L", "preco": 10.0 },
+        { "codigo": "B03", "nome": "Sprite 2L", "preco": 10.0 },
+        { "codigo": "B04", "nome": "H2OH 500ml", "preco": 7.0 },
+        { "codigo": "B05", "nome": "Cini Framboesa 2L", "preco": 8.0 },
+        { "codigo": "B06", "nome": "Chá Gelado 500ml", "preco": 6.0 },
+        { "codigo": "B07", "nome": "Suco Natural Copo", "preco": 8.0 },
+        { "codigo": "B08", "nome": "Pepsi 2L", "preco": 9.0 },
+        { "codigo": "B09", "nome": "Schweppes", "preco": 8.0 },
+        { "codigo": "B10", "nome": "Água Tônica", "preco": 7.0 }
       ]
     },
+
     {
-      "nome": "Bebidas",
+      "nome": "Cervejas Lata (350ml)",
       "itens": [
-        {
-          "codigo": "B1",
-          "nome": "Coca-Cola lata 350ml",
-          "preco": 4.5
-        },
-        {
-          "codigo": "B2",
-          "nome": "Guaraná Antártica 2L",
-          "preco": 9.0
-        },
-        {
-          "codigo": "B3",
-          "nome": "Água sem gás 500ml",
-          "preco": 2.5
-        }
+        { "codigo": "C01", "nome": "Skol 350ml", "preco": 5.99 },
+        { "codigo": "C02", "nome": "Brahma 350ml", "preco": 5.99 },
+        { "codigo": "C03", "nome": "Antarctica 350ml", "preco": 5.49 },
+        { "codigo": "C04", "nome": "Amstel 350ml", "preco": 6.99 },
+        { "codigo": "C05", "nome": "Itaipava 350ml", "preco": 4.99 },
+        { "codigo": "C06", "nome": "Spaten 350ml", "preco": 7.99 },
+        { "codigo": "C07", "nome": "Heineken Zero 350ml", "preco": 7.99 },
+        { "codigo": "C08", "nome": "Coronita Lata 350ml", "preco": 8.49 },
+        { "codigo": "C09", "nome": "Stella Lata 350ml", "preco": 8.99 },
+        { "codigo": "C10", "nome": "Budweiser Lata 350ml", "preco": 7.99 }
+      ]
+    },
+
+    {
+      "nome": "Long Necks",
+      "itens": [
+        { "codigo": "LN01", "nome": "Stella Long Neck", "preco": 11.0 },
+        { "codigo": "LN02", "nome": "Heineken Long Neck", "preco": 11.0 },
+        { "codigo": "LN03", "nome": "Budweiser Long Neck", "preco": 10.0 },
+        { "codigo": "LN04", "nome": "Eisenbahn Long Neck", "preco": 11.0 },
+        { "codigo": "LN05", "nome": "Amstel Long Neck", "preco": 9.0 },
+        { "codigo": "LN06", "nome": "Spaten Long Neck", "preco": 10.0 },
+        { "codigo": "LN07", "nome": "Corona Long Neck", "preco": 12.0 },
+        { "codigo": "LN08", "nome": "Petra Long Neck", "preco": 9.0 },
+        { "codigo": "LN09", "nome": "Original Long Neck", "preco": 11.0 },
+        { "codigo": "LN10", "nome": "Serramalte Long Neck", "preco": 12.0 }
+      ]
+    },
+
+    {
+      "nome": "Drinks Prontos",
+      "itens": [
+        { "codigo": "DP01", "nome": "Gin Tônica Lata", "preco": 12.0 },
+        { "codigo": "DP02", "nome": "Moscow Mule Lata", "preco": 16.0 },
+        { "codigo": "DP03", "nome": "Ice Balada", "preco": 10.0 },
+        { "codigo": "DP04", "nome": "Skol Beats Senses", "preco": 12.0 },
+        { "codigo": "DP05", "nome": "Beats GT Latão", "preco": 13.0 },
+        { "codigo": "DP06", "nome": "Beats Zodiac", "preco": 14.0 },
+        { "codigo": "DP07", "nome": "Beats Apple", "preco": 12.0 },
+        { "codigo": "DP08", "nome": "Beats GT", "preco": 13.0 },
+        { "codigo": "DP09", "nome": "Smirnoff Ice", "preco": 12.0 },
+        { "codigo": "DP10", "nome": "Jack & Coke Lata", "preco": 25.0 }
+      ]
+    },
+
+    {
+      "nome": "Whisky (garrafas)",
+      "itens": [
+        { "codigo": "W01", "nome": "Chivas 12 anos", "preco": 159.0 },
+        { "codigo": "W02", "nome": "Jack Daniels", "preco": 149.0 },
+        { "codigo": "W03", "nome": "Black Label", "preco": 189.0 },
+        { "codigo": "W04", "nome": "Red Label", "preco": 109.0 },
+        { "codigo": "W05", "nome": "Old Parr", "preco": 159.0 },
+        { "codigo": "W06", "nome": "Passport", "preco": 69.0 },
+        { "codigo": "W07", "nome": "Ballantines", "preco": 89.0 },
+        { "codigo": "W08", "nome": "Teacher’s", "preco": 69.0 },
+        { "codigo": "W09", "nome": "White Horse", "preco": 59.0 },
+        { "codigo": "W10", "nome": "Johnnie Walker Gold", "preco": 239.0 }
+      ]
+    },
+
+    {
+      "nome": "Vodka",
+      "itens": [
+        { "codigo": "V01", "nome": "Smirnoff", "preco": 39.0 },
+        { "codigo": "V02", "nome": "Absolut", "preco": 89.0 },
+        { "codigo": "V03", "nome": "Orloff", "preco": 29.0 },
+        { "codigo": "V04", "nome": "Skyy", "preco": 69.0 },
+        { "codigo": "V05", "nome": "Askov", "preco": 19.0 },
+        { "codigo": "V06", "nome": "Smirnoff Ice", "preco": 12.0 },
+        { "codigo": "V07", "nome": "Balalaika", "preco": 23.0 },
+        { "codigo": "V08", "nome": "Montilla", "preco": 27.0 },
+        { "codigo": "V09", "nome": "Eristoff", "preco": 69.0 },
+        { "codigo": "V10", "nome": "Stoli", "preco": 99.0 }
+      ]
+    },
+
+    {
+      "nome": "Vinhos",
+      "itens": [
+        { "codigo": "VN01", "nome": "Concha y Toro", "preco": 49.0 },
+        { "codigo": "VN02", "nome": "Reservado Malbec", "preco": 39.0 },
+        { "codigo": "VN03", "nome": "Lambrusco", "preco": 29.0 },
+        { "codigo": "VN04", "nome": "Almadén", "preco": 32.0 },
+        { "codigo": "VN05", "nome": "Quinta do Morgado", "preco": 25.0 },
+        { "codigo": "VN06", "nome": "Salton", "preco": 32.0 },
+        { "codigo": "VN07", "nome": "Miolo", "preco": 45.0 },
+        { "codigo": "VN08", "nome": "Pérgola", "preco": 26.0 },
+        { "codigo": "VN09", "nome": "Vinho do Porto", "preco": 79.0 },
+        { "codigo": "VN10", "nome": "Vinho Verde", "preco": 59.0 }
+      ]
+    },
+
+    {
+      "nome": "Cachaças",
+      "itens": [
+        { "codigo": "CA01", "nome": "Cachaça 51", "preco": 15.0 },
+        { "codigo": "CA02", "nome": "Velho Barreiro", "preco": 16.0 },
+        { "codigo": "CA03", "nome": "Pitu", "preco": 14.0 },
+        { "codigo": "CA04", "nome": "Jurupinga", "preco": 21.0 },
+        { "codigo": "CA05", "nome": "Germana", "preco": 39.0 },
+        { "codigo": "CA06", "nome": "Salinas", "preco": 54.0 },
+        { "codigo": "CA07", "nome": "Ypióca", "preco": 24.0 },
+        { "codigo": "CA08", "nome": "Cachaça Artesanal", "preco": 29.0 },
+        { "codigo": "CA09", "nome": "Cabaré", "preco": 32.0 },
+        { "codigo": "CA10", "nome": "Seleta", "preco": 36.0 }
+      ]
+    },
+
+    {
+      "nome": "Corotes",
+      "itens": [
+        { "codigo": "CO01", "nome": "Corote Uva", "preco": 5.0 },
+        { "codigo": "CO02", "nome": "Corote Morango", "preco": 5.0 },
+        { "codigo": "CO03", "nome": "Corote Maracujá", "preco": 5.0 },
+        { "codigo": "CO04", "nome": "Corote Cítrico", "preco": 5.0 },
+        { "codigo": "CO05", "nome": "Corote Pêssego", "preco": 5.0 },
+        { "codigo": "CO06", "nome": "Corote Melância", "preco": 5.0 },
+        { "codigo": "CO07", "nome": "Corote Frutas Vermelhas", "preco": 5.0 },
+        { "codigo": "CO08", "nome": "Corote Limão", "preco": 5.0 },
+        { "codigo": "CO09", "nome": "Corote Coco", "preco": 5.0 },
+        { "codigo": "CO10", "nome": "Corote Frutas Tropicais", "preco": 5.0 }
+      ]
+    },
+
+    {
+      "nome": "Gin",
+      "itens": [
+        { "codigo": "G01", "nome": "Tanqueray", "preco": 99.0 },
+        { "codigo": "G02", "nome": "Bombay", "preco": 89.0 },
+        { "codigo": "G03", "nome": "Beefeater", "preco": 99.0 },
+        { "codigo": "G04", "nome": "Seagers", "preco": 22.0 },
+        { "codigo": "G05", "nome": "Hendricks", "preco": 189.0 },
+        { "codigo": "G06", "nome": "Gordons", "preco": 69.0 },
+        { "codigo": "G07", "nome": "Bulldog", "preco": 129.0 },
+        { "codigo": "G08", "nome": "Tanqueray Sevilla", "preco": 119.0 },
+        { "codigo": "G09", "nome": "Tanqueray Rangpur", "preco": 89.0 },
+        { "codigo": "G10", "nome": "Gin Artesanal", "preco": 69.0 }
+      ]
+    },
+
+    {
+      "nome": "Energéticos",
+      "itens": [
+        { "codigo": "E01", "nome": "Red Bull", "preco": 13.0 },
+        { "codigo": "E02", "nome": "Red Bull Tropical", "preco": 14.0 },
+        { "codigo": "E03", "nome": "Red Bull Sem Açúcar", "preco": 14.0 },
+        { "codigo": "E04", "nome": "Monster", "preco": 12.0 },
+        { "codigo": "E05", "nome": "Monster Mango", "preco": 12.0 },
+        { "codigo": "E06", "nome": "Monster Energy Zero", "preco": 12.0 },
+        { "codigo": "E07", "nome": "Vibe", "preco": 10.0 },
+        { "codigo": "E08", "nome": "Fusion", "preco": 12.0 },
+        { "codigo": "E09", "nome": "TNT", "preco": 9.0 },
+        { "codigo": "E10", "nome": "Volt", "preco": 8.0 }
+      ]
+    },
+
+    {
+      "nome": "Água & Gelo",
+      "itens": [
+        { "codigo": "AG01", "nome": "Água Mineral 500ml", "preco": 4.0 },
+        { "codigo": "AG02", "nome": "Água Mineral 1,5L", "preco": 6.0 },
+        { "codigo": "AG03", "nome": "Água com Gás", "preco": 5.0 },
+        { "codigo": "AG04", "nome": "Gelo 1kg", "preco": 6.0 },
+        { "codigo": "AG05", "nome": "Gelo 2kg", "preco": 9.0 },
+        { "codigo": "AG06", "nome": "Água Tônica", "preco": 7.0 },
+        { "codigo": "AG07", "nome": "Água saborizada", "preco": 6.0 },
+        { "codigo": "AG08", "nome": "Água de coco", "preco": 8.0 },
+        { "codigo": "AG09", "nome": "Água Alcalina", "preco": 9.0 },
+        { "codigo": "AG10", "nome": "Água Mineral Premium", "preco": 12.0 }
+      ]
+    },
+
+    {
+      "nome": "Cigarros (seleção)",
+      "itens": [
+        { "codigo": "CI01", "nome": "Marlboro", "preco": 13.0 },
+        { "codigo": "CI02", "nome": "Lucky Strike", "preco": 12.0 },
+        { "codigo": "CI03", "nome": "Dunhill", "preco": 13.0 },
+        { "codigo": "CI04", "nome": "Ritz", "preco": 8.0 },
+        { "codigo": "CI05", "nome": "Parliament", "preco": 14.0 },
+        { "codigo": "CI06", "nome": "Kent", "preco": 13.0 },
+        { "codigo": "CI07", "nome": "L&M", "preco": 10.0 },
+        { "codigo": "CI08", "nome": "Souvenir", "preco": 9.0 },
+        { "codigo": "CI09", "nome": "Free", "preco": 12.0 },
+        { "codigo": "CI10", "nome": "Camel", "preco": 14.0 }
+      ]
+    },
+
+    {
+      "nome": "Tabacaria (itens)",
+      "itens": [
+        { "codigo": "T01", "nome": "Essência Hookah Mix", "preco": 15.0 },
+        { "codigo": "T02", "nome": "Essência Zomo", "preco": 15.0 },
+        { "codigo": "T03", "nome": "Essência Adalya", "preco": 25.0 },
+        { "codigo": "T04", "nome": "Carvão Coco", "preco": 10.0 },
+        { "codigo": "T05", "nome": "Narguilé Pequeno", "preco": 59.0 },
+        { "codigo": "T06", "nome": "Prato / Alumínio", "preco": 5.0 },
+        { "codigo": "T07", "nome": "Piteira", "preco": 5.0 },
+        { "codigo": "T08", "nome": "Filtro", "preco": 6.0 },
+        { "codigo": "T09", "nome": "Tela", "preco": 3.0 },
+        { "codigo": "T10", "nome": "Vaporesso Líquido", "preco": 18.0 }
+      ]
+    },
+
+    {
+      "nome": "Sedas",
+      "itens": [
+        { "codigo": "SE01", "nome": "Seda OCB", "preco": 5.0 },
+        { "codigo": "SE02", "nome": "King Paper", "preco": 5.0 },
+        { "codigo": "SE03", "nome": "RAW", "preco": 6.0 },
+        { "codigo": "SE04", "nome": "Bem Bolado", "preco": 5.0 },
+        { "codigo": "SE05", "nome": "Paper Lap", "preco": 4.0 },
+        { "codigo": "SE06", "nome": "Fire Paper", "preco": 4.0 },
+        { "codigo": "SE07", "nome": "Lion Rolling Circus", "preco": 6.0 },
+        { "codigo": "SE08", "nome": "Royal Blunt", "preco": 7.0 },
+        { "codigo": "SE09", "nome": "Ultra Thin", "preco": 6.0 },
+        { "codigo": "SE10", "nome": "Lion Pop", "preco": 5.0 }
+      ]
+    },
+
+    {
+      "nome": "Doces",
+      "itens": [
+        { "codigo": "D01", "nome": "Trento", "preco": 4.0 },
+        { "codigo": "D02", "nome": "Bis", "preco": 4.0 },
+        { "codigo": "D03", "nome": "Sonho de Valsa", "preco": 3.0 },
+        { "codigo": "D04", "nome": "Ouro Branco", "preco": 3.0 },
+        { "codigo": "D05", "nome": "Chocolate Amargo", "preco": 6.0 },
+        { "codigo": "D06", "nome": "Chocolate Branco", "preco": 6.0 },
+        { "codigo": "D07", "nome": "Kinder Ovo", "preco": 9.0 },
+        { "codigo": "D08", "nome": "Paçoca", "preco": 2.0 },
+        { "codigo": "D09", "nome": "Bombom Ferrero", "preco": 11.0 },
+        { "codigo": "D10", "nome": "Bolo no Pote", "preco": 12.0 }
+      ]
+    },
+
+    {
+      "nome": "Salgadinhos",
+      "itens": [
+        { "codigo": "SG01", "nome": "Ruffles", "preco": 9.0 },
+        { "codigo": "SG02", "nome": "Doritos", "preco": 10.0 },
+        { "codigo": "SG03", "nome": "Cheetos", "preco": 8.0 },
+        { "codigo": "SG04", "nome": "Fandangos", "preco": 7.0 },
+        { "codigo": "SG05", "nome": "Pringles", "preco": 13.0 },
+        { "codigo": "SG06", "nome": "Baconzitos", "preco": 7.0 },
+        { "codigo": "SG07", "nome": "Sensações", "preco": 9.0 },
+        { "codigo": "SG08", "nome": "Torcida", "preco": 5.0 },
+        { "codigo": "SG09", "nome": "Batata Lisa", "preco": 9.0 },
+        { "codigo": "SG10", "nome": "Cebolitos", "preco": 7.0 }
+      ]
+    },
+
+    {
+      "nome": "Copão",
+      "itens": [
+        { "codigo": "CP01", "nome": "Copão Caipirinha", "preco": 15.0 },
+        { "codigo": "CP02", "nome": "Copão Gin Tônica", "preco": 18.0 },
+        { "codigo": "CP03", "nome": "Copão Vodka com energético", "preco": 20.0 },
+        { "codigo": "CP04", "nome": "Copão Morango", "preco": 18.0 },
+        { "codigo": "CP05", "nome": "Copão Blue", "preco": 18.0 },
+        { "codigo": "CP06", "nome": "Copão Uva", "preco": 18.0 },
+        { "codigo": "CP07", "nome": "Copão Limão Siciliano", "preco": 18.0 },
+        { "codigo": "CP08", "nome": "Copão Maracujá", "preco": 18.0 },
+        { "codigo": "CP09", "nome": "Copão do Amor", "preco": 22.0 },
+        { "codigo": "CP10", "nome": "Copão Premium", "preco": 25.0 }
+      ]
+    },
+
+    {
+      "nome": "Combos (garrafas)",
+      "itens": [
+        { "codigo": "CB01", "nome": "Jack + 4 Red Bull", "preco": 249.0 },
+        { "codigo": "CB02", "nome": "Absolut + 4 Energéticos", "preco": 199.0 },
+        { "codigo": "CB03", "nome": "Gin Tanqueray + 4 Schweppes", "preco": 199.0 },
+        { "codigo": "CB04", "nome": "Smirnoff + 4 Energéticos", "preco": 129.0 },
+        { "codigo": "CB05", "nome": "Chivas + 3 Energéticos", "preco": 199.0 },
+        { "codigo": "CB06", "nome": "Red Label + Energético", "preco": 99.0 },
+        { "codigo": "CB07", "nome": "Beats Pack", "preco": 49.0 },
+        { "codigo": "CB08", "nome": "Pack Long Neck", "preco": 39.0 },
+        { "codigo": "CB09", "nome": "Combo Cerveja Premium", "preco": 69.0 },
+        { "codigo": "CB10", "nome": "Combo Balada", "preco": 159.0 }
+      ]
+    },
+
+    {
+      "nome": "Outros",
+      "itens": [
+        { "codigo": "O01", "nome": "Carvão", "preco": 10.0 },
+        { "codigo": "O02", "nome": "Espetinho", "preco": 9.0 },
+        { "codigo": "O03", "nome": "Gelo Especial", "preco": 12.0 },
+        { "codigo": "O04", "nome": "Palito Long Drink", "preco": 2.0 },
+        { "codigo": "O05", "nome": "Copos", "preco": 2.0 },
+        { "codigo": "O06", "nome": "Guardanapos", "preco": 3.0 },
+        { "codigo": "O07", "nome": "Sacola Térmica", "preco": 12.0 },
+        { "codigo": "O08", "nome": "Kit para Drink", "preco": 9.0 },
+        { "codigo": "O09", "nome": "Tábua de Carne", "preco": 12.0 },
+        { "codigo": "O10", "nome": "Canudos", "preco": 3.0 }
+      ]
+    },
+
+    {
+      "nome": "Porções",
+      "itens": [
+        { "codigo": "PR1", "nome": "Batata Frita 500g", "preco": 28.0 },
+        { "codigo": "PR2", "nome": "Filé de Frango com Fritas", "preco": 58.0 },
+        { "codigo": "PR3", "nome": "Calabresa Acebolada", "preco": 42.0 },
+        { "codigo": "PR4", "nome": "Iscas de Carne c/ Fritas", "preco": 65.0 },
+        { "codigo": "PR5", "nome": "Anéis de Cebola", "preco": 26.0 }
       ]
     }
   ]
